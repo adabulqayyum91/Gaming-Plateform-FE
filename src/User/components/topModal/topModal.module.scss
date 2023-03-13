@@ -1,0 +1,11 @@
+.modalRoot {
+  overflow-y: scroll;
+  /* Hide scrollbar for IE, Edge add Firefox */
+  //   -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+//chrome, safari and opera
+.modalRoot::-webkit-scrollbar {
+  width: 0px;
+  background-color: #1a1a1a;
+}

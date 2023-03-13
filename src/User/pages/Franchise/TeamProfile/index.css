@@ -1,0 +1,424 @@
+.frenchTeamprofile-containerWrapper {
+  height: 100%;
+  overflow: auto;
+}
+
+.frenchTeamprofile-pic-container {
+  padding-bottom: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.frenchTeamprofile-avatar {
+  position: relative;
+  padding-left: 30px;
+}
+
+.frenchTeamprofile-card-col {
+  margin-bottom: 50px;
+}
+
+.frenchTeamprofile-teamprofilepic {
+  position: relative;
+  padding: 0px 20px;
+}
+.frenchTeamprofile-teamprofilepicIcon {
+  position: absolute;
+  top: 65%;
+  left: 70%;
+}
+.frenchTeamprofile-profilecard {
+  background-color: #2e2d2d !important;
+  min-width: 12rem !important;
+  width: 0px !important;
+}
+
+.frenchTeamprofile-flex-grid-top {
+  margin-bottom: 30px;
+  height: 250px !important;
+}
+
+#frenchTeamprofile-OpenImgUpload {
+  background: transparent;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+.frenchTeamprofile-topbodytext {
+  padding-bottom: 10px;
+}
+.frenchTeamprofile-topbody-buttons {
+  float: right;
+}
+
+.frenchTeamprofile-Profiletitle {
+  font: 22px/20px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.frenchTeamprofile-profileEditbtn {
+  background: transparent;
+  border: none;
+}
+
+.card-col .frenchTeamprofile-card-body {
+  padding: 15px 0px 10px 15px;
+}
+
+.frenchTeamprofile-medcardtext {
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.frenchTeamprofile-bottom {
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #f26826;
+}
+
+.frenchTeamprofile-backgroundchange {
+  position: absolute;
+  left: 93%;
+  top: 10%;
+}
+
+.frenchTeamprofile-flex-grid-bottom {
+  display: flex;
+  height: 70%;
+}
+
+.frenchTeamprofile-flex-grid-bottom .col {
+  display: flex;
+}
+
+.teamprofileflex-grid-bottomChild {
+  display: flex;
+}
+
+.frenchTeamprofile-col-md-8Inner {
+  width: 100%;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 0px 15px;
+}
+
+.teamprofilecol-md-8Inner::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-md-8 span {
+  padding-bottom: 10px;
+  font: normal normal normal 14px Roboto;
+  color: #ffffff;
+}
+
+.frenchTeamprofile-currentMatchHeading {
+  font: normal normal normal 14px/23px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  margin-top: 10px;
+}
+
+.frenchTeamprofile-colAbout {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.frenchTeamprofile-colAbout span {
+  font: normal normal normal 14px Roboto;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.frenchTeamprofile-colAboutCTN {
+  width: 100%;
+  height: 100%;
+  color: white;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.frenchTeamprofile-colAboutCTN::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+}
+
+.frenchTeamprofile-gamer-tag {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+.frenchTeamprofile-gamecard {
+  display: flex;
+  background: #2e2d2d 0 0 no-repeat padding-box !important;
+  border-radius: 8px;
+  opacity: 1;
+  height: 224px;
+}
+.frenchTeamprofile-gamecard .frenchTeamprofile-card-body {
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.frenchTeamprofile-gamecard-profilePic {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 150px;
+}
+
+.frenchTeamprofile-gamecard-profile {
+  position: relative;
+}
+
+.frenchTeamprofile-gamecard-profiletext {
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  left: 16px;
+}
+
+.frenchTeamprofile-card-bodyhead {
+  margin: 0px;
+  font: normal normal medium 14px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.frenchTeamprofile-pool {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #fff7f7;
+}
+
+.frenchTeamprofile-pool p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  opacity: 1;
+}
+
+.frenchTeamprofile-pool span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.frenchTeamprofile-teamsize {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #f7f7f7;
+}
+
+.frenchTeamprofile-teamsize p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  opacity: 1;
+}
+
+.frenchTeamprofile-teamsize span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.frenchTeamprofile-EntryFee {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.frenchTeamprofile-EntryFee p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  opacity: 1;
+}
+
+.frenchTeamprofile-EntryFee span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.frenchTeamprofile-gamecardScore {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 12px;
+  padding-left: 40px;
+  flex-wrap: wrap;
+}
+
+.frenchTeamprofile-row {
+  display: flex;
+  align-items: center;
+}
+
+.frenchTeamprofile-labels_tags {
+  font-weight: bolder;
+}
+
+.frenchTeamprofile-gamer_tags {
+  font-weight: normal;
+}
+
+.frenchTeamprofile-gamecardScore-row .col-md-4 h4 {
+  font: normal normal medium 14px/23px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.frenchTeamprofile-gamecardScore-row .col-md-4 h3 {
+  font: normal normal normal 14px/23px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+}
+
+.frenchTeamprofile-form-group label {
+  color: white;
+  margin-bottom: 0;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+
+#frenchTeamprofile-teamName {
+  margin: 12px 0px 0px 0px;
+}
+
+.frenchTeamprofile-modal-body .inputField {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  color: #e4e4e4cf;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.frenchTeamprofile-modal-footer {
+  border: none;
+}
+
+.frenchTeamprofile-inputField:focus {
+  outline: none;
+}
+
+.frenchTeamprofile-Modalbtn {
+  background-color: #f26826;
+  color: white;
+  border: none;
+  width: 70px;
+  border-radius: 3px;
+}
+
+@media (max-width: 578px) {
+  .frenchTeamprofile-flex-grid-bottom {
+    display: block;
+  }
+
+  .frenchTeamprofile-background {
+    display: grid;
+    justify-content: center;
+  }
+
+  .frenchTeamprofile-avatar {
+    padding: 0px;
+    padding-top: 10px;
+  }
+
+  .frenchTeamprofile-flex-grid-top .frenchTeamprofile-col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .frenchTeamprofile-card-col {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    width: 17rem;
+  }
+
+  .frenchTeamprofile-flex-grid-bottom .frenchTeamprofile-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .frenchTeamprofile-flex-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .frenchTeamprofile-gamecard {
+    height: auto;
+  }
+
+  .frenchTeamprofile-backgroundchange {
+    left: 85%;
+  }
+
+  .frenchTeamprofile-gamecardScore-row .frenchTeamprofile-col-md-4 {
+    width: 50%;
+  }
+
+  .frenchTeamprofile-colAbout {
+    padding: 0px;
+  }
+
+  .frenchTeamprofile-colAboutCTN {
+    margin-bottom: 30px;
+  }
+
+  .frenchTeamprofile-teamprofilepic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .frenchTeamprofile-teamprofilepicIcon {
+    position: absolute;
+    top: 72%;
+    left: 55%;
+  }
+}
+
+.frenchTeamprofile-no-padding {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .frenchTeamprofile-gamecardScore-row .frenchTeamprofile-col-md-4 {
+    width: 50%;
+  }
+}

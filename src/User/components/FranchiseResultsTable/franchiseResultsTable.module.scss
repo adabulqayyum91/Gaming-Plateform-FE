@@ -1,0 +1,41 @@
+.root {
+  color: white !important;
+  background-color: #1a1a1a;
+  height: 40px;
+  padding: 10px;
+}
+.inputBaseRoot {
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 2% 15px;
+}
+.inputBaseInput {
+  color: white !important;
+}
+.headRow {
+  background-color: #f26826;
+  border-bottom: #f26826;
+}
+.toolbarRoot {
+  .MuiToolBar-root {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+  }
+}
+
+.pagination {
+  background-color: #4a4a4a;
+  color: whitesmoke;
+  padding-right: 40px !important;
+  p {
+    margin: 0 !important;
+  }
+  .MuiTablePagination-actions {
+    margin-right: 20px !important;
+  }
+  button {
+    background: #f26826 !important;
+    padding: 3px 3px;
+    margin: auto 7px;
+  }
+}

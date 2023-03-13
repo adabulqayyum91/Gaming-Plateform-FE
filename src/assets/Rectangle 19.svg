@@ -1,0 +1,13 @@
+<svg height="131" viewBox="0 0 232 131" width="232"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a {
+      fill: url(#a);
+    }</style>
+    <linearGradient gradientUnits="objectBoundingBox" id="a" x1="0.5" x2="0.5" y2="1">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect class="a" height="131" rx="8" width="232"/>
+</svg>

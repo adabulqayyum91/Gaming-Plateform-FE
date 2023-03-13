@@ -1,0 +1,41 @@
+.leftRectangle {
+  padding: 0px 20px;
+  min-height: 300px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.centerInnerRows {
+  justify-content: center;
+}
+.stats {
+  color: whitesmoke !important;
+  text-align: left;
+}
+.statsHead {
+  color: #767676;
+  margin: 0;
+  text-align: left;
+}
+.successText {
+  color: #00ff00;
+}
+.dangerText {
+  color: #f22626;
+}
+.stateItem {
+  width: 120px;
+  padding: 10px 0px;
+}
+.aboutBox {
+  width: 100%;
+  word-break: break-all;
+}
+.rightRectangle {
+  min-height: 300px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 0px 10px;
+}

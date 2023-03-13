@@ -1,0 +1,94 @@
+.forgotPwd-main {
+  margin-top: 20%;
+}
+
+.forgotPwd-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 6%;
+  width: 100%;
+}
+
+.forgotPwd-zeroMargin {
+  margin: 0px;
+}
+
+.forgotPwd-frt-head {
+  text-align: center;
+}
+
+.forgotPwd-frt-head h4 {
+  font: normal normal bold 18px/30px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.forgotPwd-frt-head p {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.forgotPwd-frm {
+  width: 70%;
+}
+.forgot-form {
+  margin-top: 30%;
+}
+
+.forgotPwd-mb-3 {
+  border-bottom: solid 2px white;
+  margin-bottom: 1rem;
+}
+.forgotPwd-inputField {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  width: 80%;
+  margin-left: 10px;
+}
+
+.forgotPwd-sbtn {
+  border: none;
+  width: 100%;
+  background-color: #f26826;
+  color: white;
+  font: normal normal normal 16px/30px Roboto;
+  letter-spacing: 0forgotpwd-16px;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.forgotPwd-mt-4 {
+  margin-top: 2rem !important;
+}
+.forgotPwd-mt-2 {
+  margin-top: 1rem !important;
+}
+
+.forgotPwd-crt span {
+  font: normal normal 300 14px/30px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0forgotpwd-7;
+}
+
+.forgotPwd-crt-bt {
+  font: normal normal 300 14px/30px Roboto;
+  letter-spacing: 0px;
+  cursor: pointer;
+  color: #ffd4a0 !important;
+  opacity: 1;
+}
+.forgotPwd-crt-bt:hover {
+  color: #ffd4a0;
+}
+
+.forgotPwd-inputField:focus {
+  outline: none;
+  background: none;
+}

@@ -1,0 +1,16 @@
+<svg height="19.5" viewBox="0 0 19.5 19.5" width="19.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a {
+      fill: none;
+      stroke: #a1a1a1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 1.5px;
+    }</style>
+  </defs>
+  <g transform="translate(-0.267 -0.25)">
+    <path class="a" d="M7.016,19h-4a2,2,0,0,1-2-2V3a2,2,0,0,1,2-2h4"/>
+    <path class="a" d="M14.016,15l5-5-5-5"/>
+    <path class="a" d="M19.017,10h-12"/>
+  </g>
+</svg>

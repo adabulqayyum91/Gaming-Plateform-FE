@@ -1,0 +1,55 @@
+input.btn.btn-success.btn-lg {
+    padding: 12px 125px;
+    background-color: #e1703a;
+}
+
+.padding {
+    background: #343a40 !important;
+    padding: 5rem;
+}
+
+.border-light {
+    border-color: #ffffff4d !important;
+}
+
+.form-control {
+    padding: 0;
+    border: none;
+    border-radius: 0 !important;
+}
+
+#check-box-label {
+    display: inherit;
+}
+
+input#checkbox-id {
+    width: 15px;
+    height: 15px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ffffff4d !important;
+}
+
+.card-header {
+    background-color: unset;
+}
+
+@media screen and (max-width: 768px) {
+
+    .h2,
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    input.btn.btn-success.btn-lg {
+        padding: 12px 25px !important;
+    }
+
+    .padding {
+        padding: 0rem;
+    }
+}

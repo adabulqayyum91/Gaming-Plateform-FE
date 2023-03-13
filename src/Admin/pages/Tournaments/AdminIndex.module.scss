@@ -1,0 +1,16 @@
+.pagination {
+  background-color: #4a4a4a;
+  color: whitesmoke;
+  padding-right: 40px;
+  p {
+    margin: 0 !important;
+  }
+  .MuiTablePagination-actions {
+    margin-right: 20px !important;
+  }
+  button {
+    background: #f26826 !important;
+    padding: 3px 3px;
+    margin: auto 7px;
+  }
+}

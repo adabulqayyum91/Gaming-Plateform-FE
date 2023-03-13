@@ -1,0 +1,71 @@
+// topsec button
+.myButton {
+  color: white;
+  padding: 10px 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #f26826;
+  bottom: 10px;
+  height: 50px;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.icons {
+  padding-right: 5px;
+  padding-bottom: 7px;
+}
+
+//   topsec
+.teamProfileBackground {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 8px;
+  position: relative;
+}
+.bgImgClass {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+  position: absolute;
+  // cursor: pointer;
+}
+.profileImgUpload {
+  position: absolute;
+  right: 3%;
+  bottom: -3%;
+}
+.bgImgUpload {
+  position: absolute;
+  right: 2%;
+  top: 4%;
+}
+.teamprofileImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 135px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  margin: 0px 10px 0px 10px;
+}
+.topsecButtons {
+  display: flex;
+  align-items: flex-end;
+  width: 440px;
+  padding-bottom: 1%;
+  z-index: 1;
+  position: absolute;
+  right: 2%;
+}

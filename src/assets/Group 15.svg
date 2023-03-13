@@ -1,0 +1,27 @@
+<svg height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a, .c {
+      fill: #f4b844;
+    }
+
+    .b {
+      fill: #fedb41;
+    }
+
+    .c {
+      font-size: 10px;
+      font-family: Roboto-Bold, Roboto;
+      font-weight: 700;
+      opacity: 0.8;
+    }</style>
+  </defs>
+  <g transform="translate(-66 -460)">
+    <g transform="translate(66 460)">
+      <path class="a" d="M9,0A9,9,0,1,1,0,9,9,9,0,0,1,9,0Z"/>
+      <circle class="b" cx="6.578" cy="6.578" r="6.578" transform="translate(2.422 2.422)"/>
+    </g>
+    <text class="c" transform="translate(75 473)">
+      <tspan x="-3.271" y="0">C</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg height="16" viewBox="0 0 17 16" width="17"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a, .c {
+      fill: #fff;
+    }
+
+    .a {
+      stroke: #707070;
+    }
+
+    .b {
+      opacity: 0.8;
+      clip-path: url(#a);
+    }</style>
+    <clipPath id="a">
+      <rect class="a" height="16" transform="translate(1044 278)" width="17"/>
+    </clipPath>
+  </defs>
+  <g class="b" transform="translate(-1044 -278)">
+    <g transform="translate(1044 279.906)">
+      <path class="c"
+            d="M15.121,1.906H1.457A1.435,1.435,0,0,0,0,3.313v9.375a1.435,1.435,0,0,0,1.457,1.406H15.121a1.435,1.435,0,0,0,1.457-1.406V3.313A1.435,1.435,0,0,0,15.121,1.906Zm-.2.938-6.6,6.37L1.663,2.844ZM.971,12.493V3.5L5.649,7.978Zm.687.663L6.339,8.638l1.64,1.569a.5.5,0,0,0,.685,0l1.6-1.544,4.656,4.493Zm13.949-.663L10.951,8l4.656-4.493Z"
+            transform="translate(0 -1.906)"/>
+    </g>
+  </g>
+</svg>

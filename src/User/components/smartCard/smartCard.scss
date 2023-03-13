@@ -1,0 +1,127 @@
+.smartcard-gamecard {
+  background: #2e2d2d 0 0 no-repeat padding-box !important;
+  border-radius: 8px !important;
+  opacity: 1;
+  padding: 16px;
+}
+.smartcard-gamecard .smartcard-card-body {
+  padding-top: 5px;
+}
+
+.smartcard-gamecard-profilePic {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.smartcard-gamecard-profile {
+  position: relative;
+}
+
+.smartcard-gamecard-profiletext {
+  position: absolute;
+  color: white;
+  bottom: 10%;
+  left: 2px;
+  padding-left: 2%;
+  color: white;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 0.781) 39%,
+    rgba(0, 212, 255, 0) 97%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+}
+
+.smartcard-card-bodyhead {
+  margin: 0px;
+  font: normal normal medium 14px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.smartcard-pool {
+  width: 33%;
+  float: left;
+  height: auto;
+  letter-spacing: 0px;
+  color: #fff7f7;
+}
+
+.smartcard-pool p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  opacity: 1;
+}
+
+.smartcard-pool span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.smartcard-teamsize {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #f7f7f7;
+}
+
+.smartcard-teamsize p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  opacity: 1;
+}
+
+.smartcard-teamsize span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.smartcard-EntryFee {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.smartcard-EntryFee p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  opacity: 1;
+}
+
+.smartcard-EntryFee span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding-top: 2px;
+}
+
+.smartcard-gamecardScore {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 12px;
+  padding-left: 40px;
+  flex-wrap: wrap;
+}
+.smartcard-no-padding {
+  margin-bottom: 0 !important;
+}
+.smartcard-icon-value {
+  font-size: 14px;
+  color: "white";
+}

@@ -1,0 +1,17 @@
+.myCard {
+  // background: transparent url("../../../assets/blackImgIcon.png") 0% 0%
+  //   no-repeat padding-box;
+  // background-size: cover;
+  // background-position: center;
+  text-align: left;
+}
+.innerBox {
+  position: relative;
+}
+.myCardText {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: whitesmoke;
+  font-size: 16px;
+}

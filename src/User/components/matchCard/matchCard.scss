@@ -1,0 +1,144 @@
+.matchcard-gamecard {
+  background: #2e2d2d 0 0 no-repeat padding-box !important;
+  border-radius: 8px !important;
+  padding: 16px;
+}
+.matchcard-gamecard .matchcard-card-body {
+  padding-top: 5px;
+}
+.matchcard-card-body span {
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+.matchcard-gamecard-profilePic {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.matchcard-gamecard-profile {
+  position: relative;
+}
+.matchcard-gamecard-profiletext {
+  position: absolute;
+  color: white;
+  bottom: 10%;
+  left: 2px;
+  padding-left: 2%;
+  color: white;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 18, 18, 0.781) 39%,
+    rgba(0, 212, 255, 0) 97%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  text-align: left;
+}
+.matchcard-Result-win {
+  color: #4ed45c !important;
+  font-size: 10px;
+}
+.matchcard-Result-loss {
+  color: #ff2e2e !important;
+  font-size: 10px;
+}
+
+.matchcard-card-bodyhead {
+  margin: 0px;
+  font: normal normal medium 14px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.matchcard-pool {
+  width: 33%;
+  float: left;
+  height: auto;
+  letter-spacing: 0px;
+  color: #fff7f7;
+}
+
+.matchcard-pool p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+}
+
+.matchcard-pool span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.matchcard-teamsize {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #f7f7f7;
+}
+
+.matchcard-teamsize p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+}
+
+.matchcard-teamsize span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.matchcard-EntryFee {
+  width: 33%;
+  float: left;
+  height: auto;
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.matchcard-EntryFee p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+}
+
+.matchcard-EntryFee span {
+  font: normal normal medium 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 2px;
+}
+
+.matchcard-gamecardScore {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 12px;
+  padding-left: 40px;
+  flex-wrap: wrap;
+}
+.matchcard-no-padding {
+  margin-bottom: 0 !important;
+}
+.matchcard-icon-value {
+  font-size: 14px;
+  color: "white";
+}
+
+//footer
+.matchcard-footer {
+  text-align: center;
+}
+.matchcard-footer-line {
+  height: 1px;
+  background-color: whitesmoke;
+  margin: 0% auto;
+  width: 90%;
+}

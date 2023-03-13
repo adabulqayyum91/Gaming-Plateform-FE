@@ -1,0 +1,41 @@
+.topSection {
+  height: 260px;
+  width: 100%;
+  background: black;
+  border-radius: 8px;
+  position: relative;
+  border-bottom: 2px solid #f26826;
+}
+.gameName {
+  height: 60px;
+  width: 60%;
+  background: linear-gradient(
+    90deg,
+    rgba(242, 104, 38, 1) 39%,
+    rgba(0, 212, 255, 0) 97%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  padding-left: 6%;
+  font-size: 30px;
+  font-style: bold;
+  color: white;
+}
+.centerBar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tournamentType {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+.styledTournament {
+  cursor: pointer;
+  padding: 20px;
+  color: #f26826;
+  border-bottom: 2px solid #f26826;
+}

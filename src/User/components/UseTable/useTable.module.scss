@@ -1,0 +1,31 @@
+.root {
+  color: white !important;
+  background-color: #1a1a1a;
+  height: 40px;
+  padding: 10px;
+}
+.inputBaseInput {
+  color: white !important;
+}
+.headRow {
+  background-color: #f26826;
+  border-bottom: #f26826;
+}
+.pagination {
+  background-color: #1a1a1a;
+  border: 1px solid #232323;
+  border-radius: 0px 0px 4px 4px;
+  color: whitesmoke;
+  padding-right: 40px !important;
+  p {
+    margin: 0 !important;
+  }
+  .MuiTablePagination-actions {
+    margin-right: 20px !important;
+  }
+  button {
+    background: #f26826 !important;
+    padding: 3px 3px;
+    margin: auto 7px;
+  }
+}

@@ -1,0 +1,124 @@
+.nav {
+  justify-content: center;
+}
+
+.authlogin-tab-content {
+  height: auto;
+  margin-top: 110px;
+}
+
+.authlogin-button-manger {
+  margin-top: 35%;
+}
+
+.nav-link {
+  background: transparent !important;
+  border: none;
+  font: normal normal 300 16px/30px Roboto;
+  letter-spacing: 0px;
+  color: #fffcfa !important;
+  opacity: 1;
+  border-radius: 0px !important;
+  border-top: solid white 2px !important;
+  outline: none !important;
+}
+
+.activeTab {
+  color: #f26826 !important;
+  border-radius: 0px !important;
+  border-top: solid #f26826 2px !important;
+}
+
+.nav-link:focus {
+  border-top: solid #f26826 2px;
+  color: #f26826;
+}
+
+.mb-3 {
+  border-bottom: solid 2px white;
+}
+
+.authlogin-inputField {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.authlogin-sbtn {
+  border: none;
+  width: 100%;
+  background-color: #f26826;
+  color: white;
+  font: normal normal normal 16px/30px Roboto;
+  letter-spacing: 0.16px;
+  opacity: 1;
+  border-radius: 4px;
+  height: 42px;
+}
+
+.authlogin-mt-4 {
+  margin-top: 2rem !important;
+}
+
+.authlogin-frt {
+  float: right;
+  width: 50%;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.authlogin-bt-fr {
+  float: right;
+  text-decoration: underline;
+  font: normal normal 300 14px/30px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.authlogin-crt span {
+  font: normal normal 300 14px/30px Roboto;
+  letter-spacing: 0px;
+  padding-left: 5px;
+  color: #ffffff;
+  /* opacity: 0.7; */
+}
+
+.authlogin-crt-bt {
+  font: normal normal 300 14px/30px Roboto;
+  letter-spacing: 0px;
+  cursor: pointer;
+  color: #ffd4a0 !important;
+  opacity: 1;
+}
+.authlogin-crt-bt:hover {
+  text-decoration: none !important;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.authlogin-inputField:focus {
+  outline: none;
+  background: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .authlogin-container {
+    width: 100%;
+  }
+
+  .authlogin-button-manger {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .authlogin-frt {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.sentTeamRoot {
+  margin: 1%;
+  padding: 3%;
+  width: 100%;
+  border: 2px solid #232323;
+  border-radius: 8px;
+  text-align: left;
+}
+.sentteamTileTitle {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.sentDatetime {
+  color: #767676;
+  font-size: 10px;
+}
+.sentIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

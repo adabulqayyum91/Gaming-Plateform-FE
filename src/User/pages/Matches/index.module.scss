@@ -1,0 +1,29 @@
+.cardStyle {
+  background-size: cover;
+  background-position: center;
+  height: 198px;
+  border-radius: 8px;
+  position: relative;
+}
+.title {
+  position: absolute;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+}
+.tournamentsScroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 262px !important;
+}
+.tournamentsScroll::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.tournamentsScroll {
+  -ms-overflow-style: none;
+  -o-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,35 @@
+.leaderTileRoot {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  min-height: 95px;
+  min-width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #232323;
+  cursor: pointer;
+}
+
+.leaderTitle {
+  font-size: 14px;
+  color: white;
+  text-align: left;
+}
+.leaderIcon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.leaderIconsImgs {
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.playerTile {
+  display: flex;
+  justify-content: center;
+}

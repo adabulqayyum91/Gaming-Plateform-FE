@@ -1,0 +1,48 @@
+.topSection {
+  height: 260px;
+  width: 100%;
+  background: black;
+  border-radius: 8px;
+  position: relative;
+  border-bottom: 2px solid #f26826;
+}
+.backChevron {
+  top: 2%;
+  left: 2%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+}
+.franchiseName {
+  height: 60px;
+  width: 60%;
+  background: linear-gradient(
+    90deg,
+    rgba(242, 104, 38, 1) 39%,
+    rgba(0, 212, 255, 0) 97%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  padding-left: 6%;
+  font-style: bold;
+  color: white;
+}
+.ownerNameOuter {
+  position: absolute;
+  bottom: 10%;
+  right: 4%;
+  font-size: 14px;
+  color: whitesmoke;
+}
+.ownerNameBox {
+  margin-top: 5px;
+  background-color: #232323;
+  opacity: 0.8;
+  padding: 11px;
+  border-radius: 8px;
+}
+.ownerName {
+  color: #f26826;
+}

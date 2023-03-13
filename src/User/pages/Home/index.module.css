@@ -1,0 +1,126 @@
+.heroSectionTag{
+    top: 93px;
+left: 200px;
+width: 1241px;
+height: 655px;
+/* background: transparent url('../../../assets/img/sean-do-EHLd2utEf68-unsplash.png') 0% 0% no-repeat padding-box; */
+opacity: 0.3;
+
+}
+.heroSectionh1{
+    top: 341px;
+left: 412px;
+width: 376px;
+height: 86px;
+text-align: center;
+font: normal normal normal 80px/20px Bebas Neue;
+letter-spacing: 0px;
+color: #FF5200;
+opacity: 1;
+}
+.heroSectionh2{
+    top: 435px;
+left: 412px;
+width: 818px;
+height: 65px;
+text-align: center;
+font: normal normal normal 60px/20px Bebas Neue;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.tournDiv{
+    margin-left: 5px;
+}
+.updatesH{
+    display: flex;
+    flex-direction: row;
+    top: 1163px;
+left: 0px;
+width: 1440px;
+height: 98px;
+/* UI Properties */
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.updatesh1Div{
+    top: 1200px;
+left: 496px;
+width: 423px;
+height: 25px;
+padding-top: 41px;
+}
+.updatesh1{
+      top: 1200px;
+left: 496px;
+width: 675px;
+height: 25px;
+text-align: center;
+font: normal normal normal 24px/20px Bebas Neue;
+letter-spacing: 0px;
+
+color: #FFFFFF;
+opacity: 1;
+}
+.updatesBtnDiv{
+    top: 1191px;
+left: 802px;
+width: 143px;
+height: 42px;
+}
+.updatesBtnT{
+/* UI Properties */
+background: #F26826 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+width: 80%;
+margin-top: 35px;
+margin-left: 85px;
+height: 30px;
+}
+.updatesBtnText{
+    top: 1200px;
+left: 848px;
+width: 52px;
+height: 24px;
+text-align: center;
+font: normal normal normal 18px/20px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.winCardDiv{
+    padding-top: 25px;
+    margin-left: 5px;
+
+}
+.winCardh2{
+    color: white;
+}
+.winCardp{
+    color: #FFFFFF;
+}
+.winCardsDiv{
+    display: flex;
+    flex-direction: row;
+}
+.laddersh1{
+    color: #FFFFFF;
+}
+.ladderDiv{
+    margin: 20;
+}
+.gamesDiv{
+    margin-top: 15px;
+}
+.footerName{
+    top: 2976px;
+left: 140px;
+width: 138px;
+height: 66px;
+text-align: left;
+font: normal normal bold 30px/30px Bebas Neue;
+letter-spacing: 1px;
+color: #FFFFFF;
+opacity: 1;
+}

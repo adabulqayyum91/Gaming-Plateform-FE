@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+.toggle1 {
+  display: flex;
+  padding-left: 0px !important;
+  margin-right: 15px;
+}
+.chatHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2%;
+  width: 100%;
+}
+.usetableInput {
+  color: white !important;
+  border-bottom: 1px solid whitesmoke;
+  width: 72%;
+  margin-bottom: 3%;
+}
+.inputBaseInput {
+  color: white !important;
+}
+.rightShevron {
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.matButton {
+  background-color: transparent;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  min-width: 64px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  overflow: visible;
+}
+.upper {
+  height: 90%;
+}
+
+/* message sidenav*/
+.messageside {
+  border-right: none;
+  background: #232323;
+  border-radius: 8px 0px 0px 8px;
+  padding-top: 16px;
+  padding: 0px;
+  border: 1px #f26826 solid;
+  position: absolute;
+  height: calc(90vh - 65px);
+  overflow: auto;
+}
+.messageside::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.initialBar {
+  width: 78px;
+}
+.afterBar {
+  width: 78px;
+  animation: chatAnim 0.5s ease forwards;
+}
+@keyframes chatAnim {
+  0% {
+    width: 78px;
+  }
+  100% {
+    width: 320px;
+  }
+}
+
+.menuButton1 {
+  margin-bottom: 15px;
+  position: relative;
+}

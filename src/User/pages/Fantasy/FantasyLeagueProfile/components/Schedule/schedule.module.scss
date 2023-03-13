@@ -1,0 +1,42 @@
+.bottomBar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  color: white;
+}
+.vsIcon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tblrow {
+  border-bottom: #767676;
+}
+.roundTable {
+  padding: 15px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+}
+.noBorder {
+  border: none !important;
+}
+.tabsSection {
+  width: 100%;
+  margin: auto;
+  margin-top: 4%;
+}
+.tabType {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+.styledTab {
+  cursor: pointer;
+  padding: 20px;
+  color: #f26826;
+  border-bottom: 2px solid #f26826;
+}

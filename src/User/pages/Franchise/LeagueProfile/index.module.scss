@@ -1,0 +1,63 @@
+.topSection {
+  height: 260px;
+  width: 100%;
+  background: black;
+  border-radius: 8px;
+  position: relative;
+  border-bottom: 2px solid #f26826;
+}
+.leagueProfileImg {
+  position: absolute;
+  bottom: 2%;
+  display: flex;
+  align-items: center;
+}
+.backChevron {
+  top: 2%;
+  left: 2%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+}
+.gameName {
+  padding-left: 4%;
+  font-size: 30px;
+  color: white;
+}
+.centerBar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.leagueName {
+  color: white;
+  font-size: 30px !important;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.gameToPlay {
+  padding-left: 4%;
+  font-size: 28px;
+}
+.startingAt {
+  color: whitesmoke;
+}
+.timetext {
+  color: #f26826;
+}
+
+.tabType {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+.styledTab {
+  cursor: pointer;
+  padding: 20px;
+  color: #f26826;
+  border-bottom: 2px solid #f26826;
+}
+.tabsSection {
+  width: 100%;
+  margin: auto;
+  margin-top: 4%;
+}

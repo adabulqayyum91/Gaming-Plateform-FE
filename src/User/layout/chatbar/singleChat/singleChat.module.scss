@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+.innerContainer {
+  border-right: none;
+  background: #232323;
+  border-radius: 8px 0px 0px 8px;
+  padding-top: 16px;
+  padding: 0px;
+  border: 1px #f26826 solid;
+  position: absolute;
+  height: calc(90vh - 65px);
+  overflow: auto;
+}
+.innerContainer {
+  width: 78px;
+  animation: chatOpening 0.2s forwards;
+}
+@keyframes chatOpening {
+  0% {
+    width: 78px;
+  }
+  100% {
+    width: 320px;
+  }
+}
+.content {
+  position: relative;
+  height: 100%;
+}
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  border-bottom: 1px solid #1a1a1a;
+  height: 70px;
+  color: whitesmoke;
+}
+.headIcon {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.msgPicOut {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+}
+.msgPic {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.offline {
+  background-color: #c18e59;
+  position: absolute;
+  border-radius: 24px;
+  height: 11px;
+  width: 11px;
+  right: 2%;
+  bottom: 2%;
+}
+.online {
+  background-color: #77f226;
+  position: absolute;
+  border-radius: 24px;
+  height: 11px;
+  width: 11px;
+  right: 2%;
+  bottom: 2%;
+}
+
+//msgs
+.chatContainer {
+  height: 82%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.msgRow {
+  width: 100%;
+  padding: 0% 5%;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+}
+.msgBox {
+  margin-left: 3%;
+  padding: 3%;
+  max-width: 85%;
+  font-size: 12px;
+  background: #1a1a1a;
+  border-radius: 9px;
+
+  margin-bottom: 0px;
+  position: relative;
+}
+.msgText {
+  color: whitesmoke;
+  display: block;
+  word-wrap: break-word;
+  display: inline-block;
+}
+.msgTime {
+  color: #767676;
+}
+.msgPic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+//footer
+.usetableInput {
+  color: white !important;
+  width: 85%;
+  margin-bottom: 3%;
+  background: #1a1a1a;
+  height: 45px;
+  border-radius: 8px;
+  padding: 4%;
+}
+.inputBaseInput {
+  color: white !important;
+}
+.footer {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,101 @@
+.div{
+    top: 1432px;
+left: 238px;
+width: 332px;
+height: 274px;
+/* UI Properties */
+
+border: 1px solid #F26826;
+border-radius: 16px;
+opacity: 1;
+margin-left: 13px;
+
+}
+.div2{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.img{
+    top: 1472px;
+    left: 279px;
+    width: 36px;
+    height: 36px;
+    /* UI Properties */
+    
+    opacity: 1;
+}
+.text{
+    top: 1532px;
+left: 278px;
+width: 238px;
+height: 21px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 16px/20px Roboto;
+letter-spacing: 0px;
+color: #F26826;
+opacity: 1;
+}
+.text2{
+    top: 1532px;
+left: 278px;
+width: 238px;
+height: 21px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 16px/20px Roboto;
+letter-spacing: 0px;
+color: #0060AA;
+opacity: 1;
+}
+.text3{
+    top: 1532px;
+left: 278px;
+width: 238px;
+height: 21px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 16px/20px Roboto;
+letter-spacing: 0px;
+color: #9E8E00;
+opacity: 1;
+}
+.paragraph{
+    top: 1577px;
+left: 278px;
+width: 254px;
+height: 33px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 12px/17px Roboto;
+letter-spacing: 0px;
+color: #D6D6D6;
+opacity: 1;
+}
+.btn{
+    top: 1651px;
+left: 349px;
+width: 111px;
+height: 34px;
+/* UI Properties */
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+opacity: 1;
+}
+.internalText{
+    top: 1659px;
+left: 370px;
+width: 70px;
+height: 19px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/17px Roboto;
+letter-spacing: 0px;
+color: #D6D6D6;
+opacity: 1;
+}
+.winToEarnBtn{
+    border-radius: 4px;
+    margin-top: 55px;
+    margin-left: 50px;
+}

@@ -1,0 +1,17 @@
+.inviteScroll {
+  overflow-y: scroll;
+  max-height: 90vh;
+  /* Hide scrollbar for IE, Edge add Firefox */
+  //   -ms-overflow-style: none;
+  scrollbar-width: 3px;
+}
+//chrome, safari and opera
+.inviteScroll::-webkit-scrollbar {
+  width: 3px;
+  background-color: #1a1a1a;
+}
+
+.inviteScroll::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 8px;
+}

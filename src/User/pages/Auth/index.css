@@ -1,0 +1,88 @@
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+.contrainer {
+  background-image: url(../../../assets/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 742px;
+  opacity: 1;
+  box-shadow: inset 0px 0px 150px 60px rgba(0, 0, 0, 0.8);
+}
+
+.firstHeading {
+  text-align: left;
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  line-height: 50px;
+  color: #1a1a1a;
+}
+
+.secondHeading {
+  color: white;
+  font-size: 1.7em;
+  font: normal normal 300 28px/30px Roboto;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.firstbottom {
+  font-size: 2.5em;
+  font: normal normal medium 38px/30px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  display: flex;
+  flex: 1;
+  opacity: 1;
+}
+
+.secondbottom {
+  color: rgb(231, 229, 229);
+  font-size: 1em;
+  font: normal normal 300 18px/30px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding-bottom: 30px;
+}
+
+.topContainer {
+  flex: 1;
+}
+
+.padding-5 {
+  padding-left: 8% !important;
+  padding-top: 5% !important;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.blurBackground {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  -o-backdrop-filter: blur(50px);
+  -ms-backdrop-filter: blur(50px);
+}
+
+.top-row {
+  height: 100%;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .col-md-8 {
+    display: none;
+  }
+
+  .top {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,58 @@
+.searchedTopSection {
+  height: 260px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  // border-bottom: 2px solid #f26826;
+}
+.topSecContent {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.profileImageContainer {
+  width: 25%;
+  z-index: 2;
+  bottom: 3%;
+  position: absolute;
+  left: 1%;
+}
+.profileImgSec {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.nameStrip {
+  min-width: 220px;
+  min-height: 50px;
+  background: #232323;
+  padding: 1%;
+  font-size: 24px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.joinButton {
+  width: 280px;
+  position: absolute;
+  right: 2%;
+  z-index: 2;
+}
+.searchedProfileImage {
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+}
+.searchedBgImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  position: absolute;
+
+  cursor: pointer;
+}

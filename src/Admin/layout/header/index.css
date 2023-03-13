@@ -1,0 +1,111 @@
+.container-fluid {
+  margin: 0px 35px 0px 35px;
+}
+.admin-nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.admin-navbar-custom {
+  background: #1a1a1a 0% 0% no-repeat padding-box !important;
+  opacity: 1 !important;
+  border-bottom: 1px solid #f26826 !important;
+  padding: 14px 40px;
+}
+
+.admin-navbar-custom .navbar-brand {
+  cursor: pointer;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+.header-nav {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  font-weight: bold !important;
+}
+.admin-navbar-custom .navbar-nav .nav-link {
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding-left: 40px;
+  border-top: none !important;
+}
+.nav-item {
+  cursor: pointer;
+}
+
+.header-bt {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+img {
+  padding: 2px;
+}
+
+.LHeader-active {
+  color: #ea8744 !important;
+}
+
+.form-control {
+  background: #5857575c !important;
+  border: none !important;
+  border-radius: 24px !important;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.has-search {
+  display: flex;
+  margin-left: 20px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.admin-prof-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.dot {
+  position: absolute;
+  background-color: #ea8744;
+  border-radius: 24px;
+  height: 11px;
+  width: 11px;
+  left: 55%;
+  top: 5%;
+}
+.admin-header-signout {
+  padding-left: 20px;
+}
+
+@media (max-width: 950px) {
+  .form-control {
+    float: left;
+  }
+}

@@ -1,0 +1,38 @@
+.winorloss-gamecard {
+  background: #2e2d2d 0 0 no-repeat padding-box !important;
+  border-radius: 12px !important;
+  opacity: 1;
+  height: 220px;
+  width: 289px;
+  margin-right: 0px !important;
+  padding-right: 10px;
+}
+.winorloss-gamecard .winorloss-card-body {
+  padding: 15px;
+  padding-top: 5px;
+}
+
+.winorloss-gamecard-profilePic {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 150px;
+}
+
+.winorloss-gamecard-profile {
+  position: relative;
+}
+
+.winorloss-gamecard-profiletext {
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  left: 16px;
+}
+
+.winorloss-no-padding {
+  margin-bottom: 0 !important;
+}
+.winorloss-icon-value {
+  font-size: 14px;
+  color: "white";
+}

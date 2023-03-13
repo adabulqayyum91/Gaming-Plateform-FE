@@ -1,0 +1,168 @@
+.sidebar-container {
+  background: #232323 0% 0% no-repeat padding-box;
+  border: 1px solid #7070704d;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.sidebar-a,
+.sidebar-b {
+  fill: none;
+  stroke: #a1a1a1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
+}
+
+.sidebar-line {
+  height: 1px;
+  background-color: #707070;
+  width: 100%;
+  margin: 16px auto;
+}
+
+.sidebar-menu-button :hover span {
+  color: #f26826;
+}
+
+.sidebar-upper {
+  height: 90%;
+  padding: 24px;
+}
+
+.sidebar-menu-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 25px;
+  background: transparent;
+  border: none;
+}
+
+.sidebar-menu-button span {
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #a1a1a1;
+  padding-left: 20px;
+}
+
+.sidebar-profilehead {
+  height: 50px;
+}
+
+.sidebar-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.sidebar-scoreBox {
+  width: 100%;
+  border: solid #707070 1px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sidebar-scoreBox h1 {
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #a1a1a1;
+  padding-top: 10px;
+}
+
+.sidebar-scoreBoxdata {
+  font: normal normal bold 25px/20px Roboto;
+  letter-spacing: 0px;
+  color: #a1a1a1;
+  padding: 10px;
+}
+
+.sidebar-scoreBoxdata img {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.sidebar-scoreBoxdata p {
+  font: normal normal normal 10px/18px Roboto;
+  letter-spacing: 0px;
+  color: #767676;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+.sidebar-withdraw {
+  text-decoration: none;
+  margin: 0 !important;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.sidebar-menu-button1 {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.active .sidebar-match path {
+  stroke: #f26826;
+}
+
+.active .sidebar-profile path {
+  stroke: #f26826;
+}
+
+.active span {
+  color: #f26826;
+}
+
+.active .sidebar-invite path {
+  stroke: #f26826;
+}
+
+.active .sidebar-team path {
+  stroke: #f26826;
+}
+
+.side-bar {
+  height: 100%;
+  width: 100%;
+}
+
+.side-bar ul li {
+  list-style-type: none;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 13px;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: -32px;
+}
+
+.side-bar ul li a {
+  font: normal normal normal 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #a1a1a1;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  color: #818181;
+  opacity: 1;
+  cursor: pointer;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: -32px; */
+}
+
+.navlink.active {
+  color: #f26826;
+}
+
+.navbar-text {
+  margin-left: 1.2rem;
+}

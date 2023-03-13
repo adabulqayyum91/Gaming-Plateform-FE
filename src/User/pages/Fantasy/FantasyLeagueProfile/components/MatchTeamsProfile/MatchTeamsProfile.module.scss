@@ -1,0 +1,16 @@
+.matchTeamScroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.matchTeamScroll::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.matchTeamScroll {
+  -ms-overflow-style: none;
+  -o-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,36 @@
+.receivedTryoutRoot {
+  // margin: 1%;
+  padding: 1% 3%;
+  width: 100%;
+  border: 2px solid #232323;
+  border-radius: 8px;
+}
+.receivedTryoutTitle {
+  font-size: 15px;
+  color: white;
+}
+.userName {
+  color: #f26826;
+}
+.receivedDatetime {
+  color: #767676;
+  font-size: 10px;
+}
+.receivedIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.receivedTryoutDatetime {
+  padding-left: 10px;
+  color: white;
+}
+.accepted {
+  font-size: 12px;
+  background-color: #f26826;
+  border-radius: 8px;
+  padding: 7px;
+  color: whitesmoke;
+  cursor: pointer;
+  width: 81px;
+}

@@ -1,0 +1,60 @@
+.topSection {
+  height: 260px;
+  width: 100%;
+  background: black;
+  border-radius: 8px;
+  position: relative;
+  border-bottom: 2px solid #f26826;
+}
+.tournamentProfileImg {
+  bottom: 2%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+}
+.backChevron {
+  top: 2%;
+  left: 2%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+}
+.gameName {
+  padding-left: 4%;
+  font-size: 30px;
+  color: white;
+}
+.centerBar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tournamentName {
+  color: white;
+  font-size: 30px !important;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.miniDetailsBar {
+  padding: 15px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  text-align: center;
+}
+.bottomBar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  color: white;
+}
+.timetext {
+  color: #f26826;
+}
+.winningBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

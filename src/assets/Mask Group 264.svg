@@ -1,0 +1,28 @@
+<svg height="11" viewBox="0 0 11 11" width="11"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a, .c {
+      fill: #a1a1a1;
+    }
+
+    .a {
+      stroke: #707070;
+    }
+
+    .b {
+      clip-path: url(#a);
+    }</style>
+    <clipPath id="a">
+      <rect class="a" height="11" transform="translate(-0.568 -0.633)" width="11"/>
+    </clipPath>
+  </defs>
+  <g class="b" transform="translate(10.432 10.367) rotate(180)">
+    <g transform="translate(2.306 -0.149)">
+      <g transform="translate(0 0)">
+        <path class="c"
+              d="M5.58,4.987.7.119A.409.409,0,0,0,.12.7L4.711,5.277.12,9.855a.409.409,0,0,0,.578.579L5.58,5.567a.409.409,0,0,0,0-.579Z"
+              transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

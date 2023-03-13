@@ -1,0 +1,68 @@
+//bottom sec
+.statusBar {
+  padding: 50px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  justify-content: center;
+}
+
+//leader tile
+.leaderTileRoot {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leaderTitle {
+  font-size: 14px;
+  color: white;
+}
+.leaderIcon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.leaderIconsImgs {
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+//roosters
+.rosterName {
+  color: white;
+}
+.rosterBar {
+  padding: 30px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+}
+
+//bottom section->roosterteam tile
+.teamRoot {
+  margin: 10px;
+  padding: 10px;
+  width: 270px;
+  background: #232323;
+  border-radius: 8px;
+}
+.teamTileTitle {
+  font-size: 14px;
+  color: white;
+}
+.teamsIcon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.teamIconsImgs {
+  justify-content: space-between;
+  padding-right: 40px;
+}

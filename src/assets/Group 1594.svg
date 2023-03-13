@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="18.5" viewBox="0 0 25.5 18.5">
+  <g id="Group_1594" data-name="Group 1594" transform="translate(-440.75 -360.75)">
+    <g id="Group_1592" data-name="Group 1592" transform="translate(375 -99)">
+      <g id="dollar" transform="translate(66 460)">
+        <path id="Path_26" data-name="Path 26" d="M9,0A9,9,0,1,1,0,9,9,9,0,0,1,9,0Z" fill="#f4b844" stroke="#1a1a1a" stroke-width="0.5"/>
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="6.578" cy="6.578" r="6.578" transform="translate(2.422 2.422)" fill="#fedb41"/>
+      </g>
+      <text id="C" transform="translate(75 473)" fill="#f4b844" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700" opacity="0.8"><tspan x="-3" y="0">C</tspan></text>
+    </g>
+    <g id="Group_1593" data-name="Group 1593" transform="translate(382 -99)">
+      <g id="dollar-2" data-name="dollar" transform="translate(66 460)">
+        <path id="Path_26-2" data-name="Path 26" d="M9,0A9,9,0,1,1,0,9,9,9,0,0,1,9,0Z" fill="#f4b844" stroke="#1a1a1a" stroke-width="0.5"/>
+        <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="6.578" cy="6.578" r="6.578" transform="translate(2.422 2.422)" fill="#fedb41"/>
+      </g>
+      <text id="C-2" data-name="C" transform="translate(75 473)" fill="#f4b844" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700" opacity="0.8"><tspan x="-3" y="0">C</tspan></text>
+    </g>
+  </g>
+</svg>

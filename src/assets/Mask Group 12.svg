@@ -1,0 +1,25 @@
+<svg height="25" viewBox="0 0 25 25" width="25"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a, .c {
+      fill: #fff;
+    }
+
+    .a {
+      stroke: #707070;
+    }
+
+    .b {
+      clip-path: url(#a);
+    }</style>
+    <clipPath id="a">
+      <rect class="a" height="25" transform="translate(1064 38)" width="25"/>
+    </clipPath>
+  </defs>
+  <g class="b" transform="translate(-1064 -38)">
+    <g transform="translate(1064 38)">
+      <path class="c"
+            d="M24.695,23.222l-7.109-7.109a9.915,9.915,0,1,0-1.473,1.473l7.109,7.109a1.041,1.041,0,1,0,1.473-1.473ZM9.9,17.708A7.812,7.812,0,1,1,17.708,9.9,7.821,7.821,0,0,1,9.9,17.708Z"/>
+    </g>
+  </g>
+</svg>
